@@ -85,28 +85,36 @@ a{
 }
 
 .images{
-    padding: 25px 200px;
+    padding: 25px;
+}
+
+.bannerButton1{
+    margin-left: 275px;
+}
+
+.bannerButton2{
+    margin: 0 10px;
+}
+
+.bannerButton3{
+    margin-right: 275px;
 }
 
 .bannerImg1{
-    margin-left: 275px;
     background: url("../img/banner-1.jpg") no-repeat;
-    width: 300px;
-    height: 220px;
 }
 
 .bannerImg2{
-    margin: 0 10px;
     background: url("../img/banner-2.jpg") no-repeat;
-    width: 300px;
-    height: 220px;
 }
 
 .bannerImg3{
-    margin-right: 275px;
     background: url("../img/banner-3.jpg") no-repeat;
-    width: 300px;
-    height: 220px;
+}
+
+.bannerImg1, .bannerImg2, .bannerImg3{
+    max-width: 300px;
+    max-height: 220px;
 }
 
 .bannerImg1:hover .bannerText1{
