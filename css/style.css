@@ -86,7 +86,6 @@ a{
 
 .images{
     padding: 25px 200px;
-    grid-template-columns: auto auto auto;
 }
 
 .bannerImg1{
@@ -116,11 +115,13 @@ a{
 }
 
 .bannerImg2:hover .bannerText2{
-
-}
+    opacity: .6;
+    color: white;
+}   
 
 .bannerImg3:hover .bannerText3{
-
+    opacity: .6;
+    color: white;
 }
 
 .bannerText1, .bannerText2, .bannerText3{
@@ -129,5 +130,5 @@ a{
     background: black;
     opacity: 0;
     text-align:center;
-    padding: 110px 110px;
+    padding: 101px 110px;
 }
