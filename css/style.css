@@ -89,7 +89,7 @@ a{
 
 .bannerImg1{
     background: url("../img/banner-1.jpg") no-repeat;
-    margin-left: 275px;
+    margin-left: 340px;
 }
 
 .bannerImg2{
@@ -99,7 +99,6 @@ a{
 
 .bannerImg3{
     background: url("../img/banner-3.jpg") no-repeat;
-    margin-right: 275px;
 }
 
 .bannerImg1, .bannerImg2, .bannerImg3{
@@ -110,17 +109,14 @@ a{
 
 .bannerImg1:hover .bannerText1{
     opacity: .75;
-    background: black;
 }
 
 .bannerImg2:hover .bannerText2{
     opacity: .75;
-    background: black;
 }   
 
 .bannerImg3:hover .bannerText3{
     opacity: .75;
-    background: black;
 }
 
 .bannerText1, .bannerText2, .bannerText3{
@@ -131,4 +127,5 @@ a{
     padding: 101px 110px;
     color: white;
     font-weight: bold;
+    background: black;
 }
