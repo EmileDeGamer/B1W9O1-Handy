@@ -45,10 +45,6 @@ a{
     color: black;
 }
 
-.topButton{
-
-}
-
 .button{
     color: white;
     font-weight: bold;
@@ -59,9 +55,37 @@ a{
 }
 
 .dropdown{
+    display:none;
     padding-left: 60px;
     margin: 0;
     margin-top: 10px;
+}
+
+.dropdownButton:hover .dropdown {
+    display:block;
+}
+
+.buttonDropdown1, .buttonDropdown2, .buttonDropdown3{
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.buttonDropdown1{
+    padding-right: 36px;
+}
+
+.buttonDropdown2{
+    padding-right: 97px;
+}
+
+.buttonDropdown3{
+    padding-right: 72px;
+}
+
+.buttonDropdown1:hover, .buttonDropdown2:hover, .buttonDropdown3:hover{
+    color: black;
+    background: yellow;
 }
 
 li{
@@ -156,7 +180,7 @@ li{
 .bannerText1, .bannerText2, .bannerText3{
     text-align:center;
     opacity: 0;
-    padding: 100px 50px;
+    padding: 100px 25px;
     color: white;
     font-weight: bold;
     background: rgba(34,41,49,0.8);
