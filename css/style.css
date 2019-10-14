@@ -45,8 +45,8 @@ a{
     color: black;
 }
 
-.headerSubButtons{
-    font-size: 16px;
+.topButton{
+
 }
 
 .button{
@@ -56,6 +56,18 @@ a{
     height: 47.5px;
     width: 100px;
     padding: 14px 5px;
+}
+
+.dropdown{
+    padding-left: 60px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+li{
+    list-style: none;
+    background: black;
+    width: 150px;
 }
 
 .headerLogo{
