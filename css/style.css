@@ -237,21 +237,18 @@ a{
 }
 
 .item1Img, .item2Img, .item3Img{
-    width: 50px;
-    height: 50px;
+    position: relative;
     float: left;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    color: gray;
 }
 
 .item1Text, .item2Text, .item3Text{
     color: gray;
-    position: absolute;
+    position: relative;
     font-size: 12px;
     font-weight: 400;
-}
-
-.item1Text{
-    padding-top: 7.5px;
 }
 
 .item2Text{
@@ -259,7 +256,7 @@ a{
 }
 
 .item3Text{
-    padding-top: 12.5px;
+    padding-top: 13px;
 }
 
 .item1, .item2, .item3{
