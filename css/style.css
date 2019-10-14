@@ -29,7 +29,7 @@ a{
 }
 
 .headerButtons{
-    background: black;
+    background: #222931;
     width: 950px;
     height: 30px;
     margin-left: 12.5%;
@@ -41,8 +41,8 @@ a{
 }
 
 .button:hover{
-    background: yellow;
-    color: black;
+    background: #ffe718;
+    color: #222931;
 }
 
 .button{
@@ -84,13 +84,13 @@ a{
 }
 
 .buttonDropdown1:hover, .buttonDropdown2:hover, .buttonDropdown3:hover{
-    color: black;
-    background: yellow;
+    color: #222931;
+    background: #ffe718;
 }
 
 li{
     list-style: none;
-    background: black;
+    background: #222931;
     width: 150px;
 }
 
@@ -100,7 +100,7 @@ li{
 }
 
 .text{
-    background: yellow;
+    background: #ffe718;
     margin-bottom: 25px;
 }
 
@@ -132,7 +132,7 @@ li{
 }
 
 .textButtonText:hover{
-    background: black;
+    background: #222931;
     color: white;
 }
 
@@ -190,8 +190,8 @@ li{
 
 .footerButton1, .footerButton2, .footerButton3{
     display: inline-block;
-    background: yellow;
-    color: black;
+    background: #ffe718;
+    color: #222931;
     width: 300px;
     padding: 10px 0px;
     text-align: center;
@@ -212,17 +212,17 @@ li{
 
 .footerButton1:hover{
     color: white;
-    background: black;
+    background: #222931;
 }
 
 .footerButton2:hover{
     color: white;
-    background: black;
+    background: #222931;
 }
 
 .footerButton3:hover{
     color: white;
-    background: black;
+    background: #222931;
 }
 
 .footerP{
@@ -283,12 +283,12 @@ li{
 .item1Img, .item2Img, .item3Img{
     position: relative;
     padding-top: 10px;
-    color: gray;
+    color: #aeb6be;
     padding-right: 10px;
 }
 
 .item1Text, .item2Text, .item3Text{
-    color: gray;
+    color: #5f656d;
     font-size: 12px;
     font-weight: 400;
     position: absolute;
@@ -313,7 +313,7 @@ li{
 }
 
 .footerFooter{
-    background: black;
+    background: #222931;
     padding: 20px;
 }
 
@@ -325,4 +325,42 @@ li{
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
+}
+
+.breadcrumb{
+    color: #5f656d;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.diensten{
+    padding: 25px 0;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.dienstenTitle{
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.hoverable{
+    color: #ffe718;
+}
+
+.hoverable:hover{
+    color: white;
+    background: #aeb6be;
+}
+
+.tooltip1{
+    display: none;
+}
+
+.tooltip2{
+    display: none;
+}
+
+.tooltip3{
+    display: none;
 }
