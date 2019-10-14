@@ -33,11 +33,16 @@ a{
     width: 950px;
     height: 30px;
     margin-left: 12.5%;
-    padding: 5px;
     padding-left: 25px;
-    padding-top: 12.5px;
     position: absolute;
     font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.button:hover{
+    background: yellow;
+    color: black;
 }
 
 .headerSubButtons{
@@ -48,6 +53,9 @@ a{
     color: white;
     font-weight: bold;
     margin-right: 5px;
+    height: 47.5px;
+    width: 100px;
+    padding: 14px 5px;
 }
 
 .headerLogo{
@@ -238,17 +246,22 @@ a{
 
 .item1Img, .item2Img, .item3Img{
     position: relative;
-    float: left;
     padding-top: 10px;
-    padding-right: 20px;
     color: gray;
+    padding-right: 10px;
 }
 
 .item1Text, .item2Text, .item3Text{
     color: gray;
-    position: relative;
     font-size: 12px;
     font-weight: 400;
+    position: absolute;
+}
+
+.item1, .item2, .item3{
+    width: 300px;
+    height: 50px;
+    padding-bottom: 10px;
 }
 
 .item2Text{
@@ -256,13 +269,7 @@ a{
 }
 
 .item3Text{
-    padding-top: 13px;
-}
-
-.item1, .item2, .item3{
-    width: 300px;
-    height: 50px;
-    padding-bottom: 10px;
+    padding-top: 12.5px;
 }
 
 .footerText{
