@@ -1,3 +1,10 @@
+*{
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -30,21 +37,22 @@ a{
     padding-left: 25px;
     padding-top: 12.5px;
     position: absolute;
+    font-size: 12px;
+}
+
+.headerSubButtons{
+    font-size: 16px;
 }
 
 .button{
     color: white;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .headerLogo{
     width: 100%;
     height: 100%;
-}
-
-.headerButtonImg{
-    width: 10px;
-    height: 10px;
 }
 
 .text{
@@ -53,14 +61,15 @@ a{
 }
 
 .textTitle{
-    font-weight: bold;
-    font-size: 25px;
+    font-size: 34px;
+    font-weight: 700;
     padding-top: 10px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 .textText{
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
     margin-left: 20px;
 }
 
@@ -70,10 +79,12 @@ a{
 }
 
 .textButtonText{
-    margin-left: 390px;
+    margin-left: 370px;
     border: 1px solid white;
     background: white;
     padding: 5px 25px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .textButtonText:hover{
@@ -125,19 +136,21 @@ a{
 .bannerText1, .bannerText2, .bannerText3{
     text-align:center;
     opacity: 0;
-    padding: 101px 110px;
+    padding: 100px 50px;
     color: white;
     font-weight: bold;
     background: rgba(34,41,49,0.8);
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .footerButton1, .footerButton2, .footerButton3{
     display: inline-block;
     background: yellow;
     color: black;
-    font-weight: bold;
-    max-width: 300px;
-    padding: 10px 100px;
+    width: 300px;
+    padding: 10px 0px;
+    text-align: center;
 }
 
 .footerButtons{
@@ -146,7 +159,7 @@ a{
 }
 
 .footerButton1{
-    margin-left: 425px;
+    margin-left: 500px;
 }
 
 .footerButton2{
@@ -168,24 +181,24 @@ a{
     background: black;
 }
 
-.footerImg{
-    width: 50px;
-    height: 50px;
-    float: left;
-}
-
 .footerP{
     margin: 0;
-    display:inline-block;
+    margin-left: 15px;
+    display: inline-block;
     padding-top: 10px;
 }
 
 .footerButtonTitle{
     padding-left: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    float: left;
 }
 
 .footerButtonText{
     padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .line{
@@ -195,18 +208,21 @@ a{
 }
 
 .footerTextText{
-    padding-top: 10px;
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .footerTitleOverOns{
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 34px;
 }
 
 .footerTitleContact{
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 34px;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .overOns{
@@ -217,19 +233,56 @@ a{
 
 .contact{
     float: right;
-    margin-right: 625px;
+    margin-right: 475px;
 }
 
 .item1Img, .item2Img, .item3Img{
     width: 50px;
     height: 50px;
     float: left;
+    padding-right: 10px;
 }
 
 .item1Text, .item2Text, .item3Text{
-    color: lightgray;
+    color: gray;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.item1Text{
+    padding-top: 7.5px;
+}
+
+.item2Text{
+    padding-top: 12.5px;
+}
+
+.item3Text{
+    padding-top: 12.5px;
+}
+
+.item1, .item2, .item3{
+    width: 300px;
+    height: 50px;
+    padding-bottom: 10px;
 }
 
 .footerText{
     margin-top: 30px;
+}
+
+.footerFooter{
+    background: black;
+    padding: 20px;
+}
+
+.footerFooterText{
+    color: white;
+    font-weight: bold;
+    margin-right: 475px;
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
 }
